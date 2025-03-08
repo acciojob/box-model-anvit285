@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+container {
+    width: 50%; /* You can adjust as per your requirement */
+    margin: auto; /* This will center the container */
+    padding: 20px; /* Adds some space inside the container */
+    border: 2px solid black; /* Adds a border around the container */
+    display: flex; /* This will line up the child elements horizontally */
+    justify-content: space-around; /* This will add equal space around the child elements */
+}
+
+.red, .green, .yellow {
+    width: 50px; /* You can adjust as per your requirement */
+    height: 50px; /* You can adjust as per your requirement */
+    border-radius: 50%; /* This will make the divs circular */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
